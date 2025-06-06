@@ -1,0 +1,44 @@
+{
+  "name": "discord-server-scraper",
+  "version": "1.0.0",
+  "description": "A comprehensive Discord server data collection tool that extracts messages, media files, and external links from Discord servers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "channels": "node get-all-channels.js",
+    "help": "node index.js --help",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "discord",
+    "scraper",
+    "data-collection",
+    "discord-bot",
+    "automation",
+    "mega-download",
+    "media-download"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/discord-server-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/discord-server-scraper/issues"
+  },
+  "homepage": "https://github.com/yourusername/discord-server-scraper#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.9.0",
+    "discord.js": "^14.19.3",
+    "discord.js-selfbot-v13": "^3.6.1",
+    "dotenv": "^16.5.0",
+    "file-type": "^20.5.0",
+    "fs-extra": "^11.3.0",
+    "megajs": "^1.3.7",
+    "puppeteer": "^24.8.0"
+  }
+}
