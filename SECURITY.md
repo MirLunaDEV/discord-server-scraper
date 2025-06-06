@@ -13,7 +13,7 @@ We provide security updates for the following versions:
 If you discover a security vulnerability in this project, please report it responsibly:
 
 1. **Do NOT** create a public GitHub issue for security vulnerabilities
-2. Send an email to [security@example.com] with details about the vulnerability
+2. Send an email to [iris.iwall@gmail.com] with details about the vulnerability
 3. Include steps to reproduce the issue if possible
 4. Allow reasonable time for the issue to be addressed before public disclosure
 
